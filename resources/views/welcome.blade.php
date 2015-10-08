@@ -39,8 +39,8 @@
         <div class="container">
             <div class="content">
                 <div class="title">Laravel 5</div>
+                <div><a href="{{ URL::to('home') }}">Home</a></div>
             </div>
-            @include('stats')
         </div>
     </body>
 </html>
