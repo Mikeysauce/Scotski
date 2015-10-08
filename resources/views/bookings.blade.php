@@ -10,7 +10,7 @@
     <hr class="style-two"/>
   <div class="row">
   <div class="col-md-12">
-   <p>At ScotSki we offer a range of packages to suite all levels of experience and every budget.  Our prices start from just £249 and include accommodation, dinner, bed and breakfast, full access to the slopes of your chosen destination together with all transfers and ski lift passes. </p>
+   <p>At ScotSki we offer a range of packages to suite all levels of experience and every budget. Our prices start from just £249 and include accommodation, dinner, bed and breakfast, full access to the slopes of your chosen destination together with all transfers and ski lift passes. </p>
     </div>
    <div class="col-md-12">
 <div class="bs-example">
