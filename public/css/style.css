@@ -9,17 +9,17 @@
   overflow: hidden;
 }
 .tempwrap {
-	font-family: 'Roboto Slab';
-	color:#5a5a5a;
+    font-family: 'Roboto Slab';
+    color:#5a5a5a;
 }
-	
+
 #gblack{
 color:#337ab7;
 font-size:23px;
 }
-@media (max-width: 767px) { 
-.img-responsive.facpage {height: 55%;width:100%;padding-left:5px;padding-right:5px;}
-.portfolio-item {height: 255px;}
+@media (max-width: 767px) {
+.img-responsive.facpage {width:100%;padding-left:5px;padding-right:5px;}
+.portfolio-item {height: auto;}
 }
 @media all and (min-width: 768px) {
 .img-responsive.facpage { width:320px;height:182px; }
@@ -41,8 +41,8 @@ color:#337ab7
 }
 
 .img-responsive.peng {
-	width:700px;
-	height:300px;
+    width:700px;
+    height:300px;
 }
 
 .caption {
@@ -67,26 +67,27 @@ font-size:1.4em;
 }
 
 .txtcolour {
-	color:#337ab7;
+    color:#337ab7;
 font-family: 'Roboto Slab', serif;
 }
-	
+
 
 body {
 padding-top:5px;
 padding-bottom:5px;
 height:100%;
+color:#5a5a5a;
 font-family: 'Roboto', sans-serif;
 /*background-color: rgba(223, 225, 247, 0.62);*/
 }
 .nottoday{
-	background-color:#EDDBF4;
+    background-color:#EDDBF4;
 }
 
 .nicer {
-	margin-top: -5px;
-	margin-bottom:25px;
-	padding: 25px 50px 35px;
+    margin-top: -5px;
+    margin-bottom:25px;
+    padding: 25px 50px 35px;
     border: 1px solid #CCC;
     background: #F8F8F8;
 }
@@ -104,12 +105,12 @@ font-family: 'Roboto', sans-serif;
 #lecht-map-container { height: 400px }
 
 
-.map-outer  { 
+.map-outer  {
     height: 100%;
-	padding:20px;
-	border: 1px solid #CCC;
-	margin-bottom: 20px;
-	background-color: #F8F8F8;
+    padding:20px;
+    border: 1px solid #CCC;
+    margin-bottom: 20px;
+    background-color: #F8F8F8;
 
 }
 
@@ -242,7 +243,7 @@ fieldset[disabled] .navbar-scotski .btn-link:focus {
     margin-bottom: 5px;
     font-size: 14px;
     font-weight: 200;
-	float:right;
+    float:right;
 }
 
 
@@ -254,9 +255,7 @@ fieldset[disabled] .navbar-scotski .btn-link:focus {
 
 .footer {
   width: 100%;
-  height: 30px;
-  
-  /*background-color: #FFF;*/
+  height: 100%;
 }
 
 @font-face {
@@ -268,9 +267,9 @@ fieldset[disabled] .navbar-scotski .btn-link:focus {
          url('../fonts/socicon.svg#icomoonregular') format('svg');
     font-weight: normal;
     font-style: normal;
- 
+
 }
- 
+
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     @font-face {
         font-family:si;

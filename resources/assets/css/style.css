@@ -18,8 +18,8 @@ color:#337ab7;
 font-size:23px;
 }
 @media (max-width: 767px) {
-.img-responsive.facpage {height: 55%;width:100%;padding-left:5px;padding-right:5px;}
-.portfolio-item {height: 255px;}
+.img-responsive.facpage {width:100%;padding-left:5px;padding-right:5px;}
+.portfolio-item {height: auto;}
 }
 @media all and (min-width: 768px) {
 .img-responsive.facpage { width:320px;height:182px; }
@@ -76,6 +76,7 @@ body {
 padding-top:5px;
 padding-bottom:5px;
 height:100%;
+color:#5a5a5a;
 font-family: 'Roboto', sans-serif;
 /*background-color: rgba(223, 225, 247, 0.62);*/
 }

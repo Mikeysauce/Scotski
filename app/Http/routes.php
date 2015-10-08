@@ -21,6 +21,7 @@ Route::post('contact',
 Route::get('home','HomeController@home');
 Route::get('facilities','HomeController@facilities');
 Route::get('locations', 'HomeController@locations');
+Route::get('penguinclub', 'HomeController@penguinclub');
 Route::get('auth/login', 'Auth\AuthController@getLogin');
 Route::post('auth/login', 'Auth\AuthController@postLogin');
 Route::get('auth/logout', 'Auth\AuthController@getLogout');

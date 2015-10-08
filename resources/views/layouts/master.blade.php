@@ -18,7 +18,7 @@
 	{!! Html::style('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css') !!}
 	{!! Html::style('//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css') !!}
 	@yield('styles')
-	{!! Html::style('/css/all.css') !!}
+	{!! Html::style('/css/style.css') !!}
 </head>
 <body>
 @section('header')

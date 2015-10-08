@@ -14,8 +14,8 @@
             <li class="{{ Request::segment(1) === 'home' ? 'active' : null }}"><a href="{{ URL::to('home') }}">Home</a></li>
             <li class="{{ Request::segment(1) === 'locations' ? 'active' : null }}"><a href="{{ URL::to('locations') }}">Locations</a></li>
             <li class="{{ Request::segment(1) === 'bookings' ? 'active' : null }}"><a href="{{ URL::to('bookings') }}">Bookings</a></li>
-            <li><a href="facilities">Facilities</a></li>
-            <li><a href="penguin-club">Penguin Club</a></li>
+            <li class="{{ Request::segment(1) === 'facilities' ? 'active' : null }}"><a href="{{ URL::to('facilities') }}">Facilities</a></li>
+            <li class="{{ Request::segment(1) === 'penguinclub' ? 'active' : null }}"><a href="{{ URL::to('penguinclub') }}">Penguin Club</a></li>
         </ul>
         <div id="google_translate_element" class="pull-right"></div>
         </div>
