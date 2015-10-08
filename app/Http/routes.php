@@ -11,6 +11,9 @@
 |
 */
 
+Route::resource('posts', 'PostsController');
+
+
 Route::get('/', function () {
 	return view ('welcome');
 });
@@ -18,10 +21,12 @@ Route::get('bookings',
   ['as' => 'contact', 'uses' => 'AboutController@create']);
 Route::post('contact',
   ['as' => 'contact_store', 'uses' => 'AboutController@store']);
+
 Route::get('home','HomeController@home');
 Route::get('facilities','HomeController@facilities');
 Route::get('locations', 'HomeController@locations');
 Route::get('penguinclub', 'HomeController@penguinclub');
+
 Route::get('auth/login', 'Auth\AuthController@getLogin');
 Route::post('auth/login', 'Auth\AuthController@postLogin');
 Route::get('auth/logout', 'Auth\AuthController@getLogout');
