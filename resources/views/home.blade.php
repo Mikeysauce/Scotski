@@ -14,7 +14,7 @@ of exciting, inclusive and fun packed holidays to the coolest destinations Scotl
 <p>
 Whether you are an experienced snowboarder, improving skier or a family looking to have
 fun in some of the most picturesque and breathtaking mountain ranges in Scotland, ScotSki
-has something for you.
+has something for you. ok
 </p>
 <p>So browse our site and give us a call to book the
 experience of a lifetime.  We promise you will have the time of your life.
