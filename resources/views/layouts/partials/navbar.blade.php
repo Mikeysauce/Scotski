@@ -13,7 +13,7 @@
 <ul class="nav navbar-nav">
             <li class="{{ Request::segment(1) === 'home' ? 'active' : null }}"><a href="{{ URL::to('home') }}">Home</a></li>
             <li class="{{ Request::segment(1) === 'locations' ? 'active' : null }}"><a href="{{ URL::to('locations') }}">Locations</a></li>
-            <li><a href="{{ URL::to('bookings') }}">Bookings</a></li>
+            <li class="{{ Request::segment(1) === 'bookings' ? 'active' : null }}"><a href="{{ URL::to('bookings') }}">Bookings</a></li>
             <li><a href="facilities">Facilities</a></li>
             <li><a href="penguin-club">Penguin Club</a></li>
         </ul>

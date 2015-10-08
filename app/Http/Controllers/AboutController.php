@@ -11,7 +11,7 @@ class AboutController extends Controller
 {
     public function create()
     {
-        return view('contact');
+        return view('bookings');
     }
 
 public function store(ContactFormRequest $request)
