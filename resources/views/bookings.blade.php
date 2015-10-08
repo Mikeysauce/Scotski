@@ -61,7 +61,7 @@
 </div>
 </div>
 </div>
-Alternatively, please use the contact form below for any booking queries or to sign up to our newsletter.
+Alternatively, please use the contact form below for any booking queries, or to sign up to our newsletter.
 <ul>
     @foreach($errors->all() as $error)
         <li>{{ $error }}</li>
