@@ -35,8 +35,8 @@
         <!-- Project Two -->
         <div class="row">
             <div class="col-md-7">
-                <a href="./images/penguinclub-2.jpg" data-lightbox="image-2">
-                    <img class="img-responsive peng" src="./images/penguinclub-2.jpg" alt="">
+                <a href="./images/nursery1.jpg" data-lightbox="image-2">
+                    <img class="img-responsive peng" src="./images/nursery1.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-5">
