@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -11,12 +10,8 @@
 |
 */
 
-Route::resource('posts', 'PostsController');
+Route::get('/','HomeController@home');
 
-
-Route::get('/', function () {
-	return view ('welcome');
-});
 Route::get('bookings',
   ['as' => 'contact', 'uses' => 'AboutController@create']);
 Route::post('contact',
@@ -26,6 +21,9 @@ Route::get('home','HomeController@home');
 Route::get('facilities','HomeController@facilities');
 Route::get('locations', 'HomeController@locations');
 Route::get('penguinclub', 'HomeController@penguinclub');
+
+Route::get('posts/create','PostsController@create');
+Route::post('posts/create','PostsController@store');
 
 Route::get('auth/login', 'Auth\AuthController@getLogin');
 Route::post('auth/login', 'Auth\AuthController@postLogin');

@@ -14,7 +14,7 @@
 					<h4>
 					<span style="color:#337ab7;">Current Temperature</span>:
 					<span class="glencoetemperature" style="color: #5a5a5a;font-size: 15px;"></span>
-
+                    <span class="glencoecurrently" style="color: #5a5a5a;font-size: 15px;"></span>
 					</h4>
 				</div>
 
@@ -40,6 +40,7 @@
 					<h4>
 					<span style="color:#337ab7;">Current Temperature</span>:
 					<span class="glensheetemperature" style="color: #5a5a5a;font-size: 15px;"></span>
+                    <span class="glensheecurrently" style="color: #5a5a5a;font-size: 15px;"></span>
 					</h4>
 				</div>
                 <p>
@@ -65,6 +66,7 @@
 					<h4>
 					<span style="color:#337ab7;">Current Temperature</span>:
 					<span class="cairngormtemperature" style="color: #5a5a5a;font-size: 15px;"></span>
+                    <span class="cairngormcurrently" style="color: #5a5a5a;font-size: 15px;"></span>
 					</h4>
 				</div>
                 <p>
@@ -85,6 +87,7 @@
 					<h4>
 					<span style="color:#337ab7;">Current Temperature</span>:
 					<span class="nevistemperature" style="color: #5a5a5a;font-size: 15px;"></span>
+                    <span class="neviscurrently" style="color: #5a5a5a;font-size: 15px;"></span>
 					</h4>
 				</div>
                 <p>
@@ -105,6 +108,7 @@
 					<h4>
 					<span style="color:#337ab7;">Current Temperature</span>:
 					<span class="lechttemperature" style="color: #5a5a5a;font-size: 15px;"></span>
+                    <span class="lechtcurrently" style="color: #5a5a5a;font-size: 15px;"></span>
 					</h4>
 				</div>
                 <p>

@@ -75,10 +75,6 @@
                 <p>You can find more information about the Penguin Club in our dedicated section in the menu above.</p>
             </div>
         </div>
-
-
-
-
     </div>
 </div>
 

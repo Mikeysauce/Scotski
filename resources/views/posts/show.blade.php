@@ -9,7 +9,6 @@
         <link rel="author" href="humans.txt">
     </head>
     <body>
-
         <h1>{{ $post->title }}
         @can('update', $post)
         <a href="#">update this post</a>

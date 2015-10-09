@@ -7,23 +7,34 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\User;
 use Auth;
+use App\Post;
 
 class HomeController extends Controller
 {
 	public function home() {
-        return view('home');
+
+        $posts = Post::all();
+        return view('home', ['posts' => $posts]);
+
+        // $data = [
+        // 'test' => 'Something',
+        // 'another' => 'another test for me',
+        // 'again' => 'yet another test'
+        // ];
+
+        //return view('home', $data);
     }
     public function facilities() {
         return view('facilities');
     }
-		public function locations() {
+	public function locations() {
 		return view('locations');
 	}
-		public function welcome() {
-            return view ('welcome');
+	public function welcome() {
+        return view ('welcome');
     }
-            public function penguinclub() {
-            return view ('penguinclub');
+    public function penguinclub() {
+        return view ('penguinclub');
     }
 }
 

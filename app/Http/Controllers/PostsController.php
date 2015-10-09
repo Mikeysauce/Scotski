@@ -2,26 +2,29 @@
 
 namespace App\Http\Controllers;
 
-use Gate;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use App\Http\Requests\PostsRequest;
 use App\Post;
 
 class PostsController extends Controller
 {
-    public function show($id)
-    {
-        //auth()->loginUsingId(1);
-
-        $post = Post::findOrFail($id);
-
-
-        //$this->authorize('show-post', $post);
-        // if (Gate::denies('show-post', $post)) {
-        //     abort(403, 'Sorry, not sorry.');
-        // }
-        return view('posts.show', compact('post'));
+    public function create() {
+        return view('posts.create');
     }
+    public function store(PostsRequest $request) {
 
+        // dd($request->all());
+        // dd(\App::environment());
+
+        $post = new Post;
+        $post->title = $request->input('title');
+        $post->content = $request->input('content');
+        $post->save();
+
+        $posts = Post::all();
+        return view('home', ['posts' => $posts]);
+
+    }
 }
