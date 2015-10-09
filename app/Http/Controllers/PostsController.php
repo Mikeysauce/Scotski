@@ -7,12 +7,15 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\PostsRequest;
 use App\Post;
+use Auth;
 
 class PostsController extends Controller
 {
+
     public function create() {
+        if (!Auth::check()) return \Redirect::to('home');
         return view('posts.create');
-    }
+     }
     public function store(PostsRequest $request) {
 
         // dd($request->all());

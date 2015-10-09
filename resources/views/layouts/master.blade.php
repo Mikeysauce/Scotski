@@ -25,9 +25,21 @@
 @section('header')
 @include('layouts.partials.header')
 @show
+
+@if (!Auth::check())
 @section('navbar')
 @include('layouts.partials.navbar')
 @show
+@endif
+
+@if (Auth::check())
+@section('navbar')
+@include('layouts.partials.navbar-loggedin')
+@show
+@endif
+
+
+
 
 <div class="container">
 @yield('content')
