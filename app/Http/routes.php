@@ -10,7 +10,7 @@
 |
 */
 
-Route::get('/','HomeController@welcome');
+Route::get('/','HomeController@home');
 
 Route::get('bookings',
   ['as' => 'contact', 'uses' => 'AboutController@create']);
