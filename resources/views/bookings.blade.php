@@ -63,30 +63,27 @@
 </div>
 <div class="row">
 <h4><b>Contact</b></h4>
+<div class="container">
     <div class="col-xs-2">
         <h2 class="special2">Glencoe</h2>
-        <hr class="style-two"/>
          <p>Manager name<br>Cairngorm Valley<br>Scotland<br> United Kingdom<br><i class="fa fa-phone fa-fw"></i> (44) 1333-321536</p>
     </div>
     <div class="col-xs-2">
         <h2 class="special2">Glenshee</h2>
-        <hr class="style-two"/>
          <p>Manager name<br>Cairngorm Valley<br>Scotland<br> United Kingdom<br><i class="fa fa-phone fa-fw"></i> (44) 1333-321536</p>
     </div>
         <div class="col-xs-2">
-        <h2 class="special2">Glenshee</h2>
-        <hr class="style-two"/>
+        <h2 class="special2">Cairngorm</h2>
          <p>Manager name<br>Cairngorm Valley<br>Scotland<br> United Kingdom<br><i class="fa fa-phone fa-fw"></i> (44) 1333-321536</p>
     </div>
         <div class="col-xs-2">
-        <h2 class="special2">Glenshee</h2>
-        <hr class="style-two"/>
+        <h2 class="special2">Nevis Range</h2>
          <p>Manager name<br>Cairngorm Valley<br>Scotland<br> United Kingdom<br><i class="fa fa-phone fa-fw"></i> (44) 1333-321536</p>
     </div>
         <div class="col-xs-2">
-        <h2 class="special2">Glenshee</h2>
-        <hr class="style-two"/>
+        <h2 class="special2">The Lecht</h2>
          <p>Manager name<br>Cairngorm Valley<br>Scotland<br> United Kingdom<br><i class="fa fa-phone fa-fw"></i> (44) 1333-321536</p>
+    </div>
     </div>
 </div>
 

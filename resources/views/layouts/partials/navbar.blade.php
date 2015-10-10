@@ -1,7 +1,3 @@
-@section('scripts')
-{!! Html::script('/js/bootstrap-hover-dropdown.min.js') !!}
-@stop
-
 <div class="container">
     <nav id="custom-bootstrap-menu" class="navbar navbar-default navbar-static-top" role="navigation">
         <div class="navbar-header">
