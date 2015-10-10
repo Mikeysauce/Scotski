@@ -36,6 +36,9 @@ class HomeController extends Controller
     public function penguinclub() {
         return view ('penguinclub');
     }
+    public function onemore() {
+        return view ('onemore');
+    }
 }
 
 
