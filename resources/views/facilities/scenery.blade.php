@@ -8,6 +8,5 @@
  <div class="jumbotron nicer">
  <h2 class="special2">Scenery</h2>
     <hr class="style-two" style="width:8%;">
-
 </div>
 @stop

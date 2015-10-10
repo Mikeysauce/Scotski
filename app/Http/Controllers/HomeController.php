@@ -11,6 +11,7 @@ use App\Post;
 
 class HomeController extends Controller
 {
+
 	public function home() {
 
         $posts = Post::all();
