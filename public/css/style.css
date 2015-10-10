@@ -8,7 +8,10 @@
   height: auto;
   overflow: hidden;
 }
-.col-xs-2 .special2 {
+@media all and (min-width : 992px) {
+  .evenmore { margin-left:25px }
+}
+.evenmore .special2 {
   text-align:left;
 }
 .tempwrap {
