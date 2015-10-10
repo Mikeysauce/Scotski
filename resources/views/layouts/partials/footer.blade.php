@@ -10,6 +10,9 @@
             <li><a class="soc-pinterest" href="#"></a></li>
             <li><a class="soc-email1 soc-icon-last" href="#"></a></li>
         </ul>
-<p class="pull-right" id="special">Website by Michael Shelton</p>
+<p class="pull-right" id="special">
+Website by Michael Shelton<BR>
+
+</p>
 </div>
 </div>
