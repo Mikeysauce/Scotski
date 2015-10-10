@@ -24,12 +24,12 @@ class HomeController extends Controller
 
         //return view('home', $data);
     }
-    public function facilities() {
-        return view('facilities');
-    }
 	public function locations() {
 		return view('locations');
 	}
+    public function glencoe() {
+        return view('locations.glencoe');
+    }
 	public function welcome() {
         return view ('welcome');
     }

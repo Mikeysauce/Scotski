@@ -8,7 +8,7 @@
         <div class="col-md-12 map-outer">
             <div class="col-md-4" >
                 <h2 class="txtcolour">
-                    Glencoe
+                    <a href="{{ URL::to('locations/glencoe') }}">Glencoe</a>
                 </h2>
 				<div class="tempwrap">
 					<h4>

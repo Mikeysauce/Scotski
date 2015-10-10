@@ -12,9 +12,9 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.styles([
-        'carousel.css',
-        'lightbox.css',
-        'style.css'
+    mix.scripts([
+        'mymap.js',
+        'jquery.simpleWeather.min.js',
+        'weather.js'
     ]);
 });

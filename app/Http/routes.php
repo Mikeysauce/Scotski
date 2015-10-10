@@ -18,9 +18,15 @@ Route::post('contact',
   ['as' => 'contact_store', 'uses' => 'AboutController@store']);
 
 Route::get('home','HomeController@home');
-Route::get('facilities','HomeController@facilities');
 Route::get('locations', 'HomeController@locations');
 Route::get('penguinclub', 'HomeController@penguinclub');
+
+Route::get('facilities','facilitiesController@index');
+Route::get('facilities/scenery','facilitiesController@scenery');
+Route::get('facilities/hotel','facilitiesController@hotel');
+Route::get('facilities/food','facilitiesController@food');
+Route::get('facilities/spa','facilitiesController@spa');
+Route::get('facilities/gym','facilitiesController@gym');
 
 Route::get('posts/create','PostsController@create');
 Route::post('posts/create','PostsController@store');
