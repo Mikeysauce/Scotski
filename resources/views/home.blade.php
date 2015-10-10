@@ -12,11 +12,6 @@
 	</div>
 </div>
 </div>
-
-
-
-
-
 <div class="jumbotron nicer">
 <div class="row">
 	<div class="col-sm-6">
