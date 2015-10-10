@@ -1,5 +1,5 @@
 @section('scripts')
-{!! Html::script('/js/navstyle.js') !!}
+{!! Html::script('/js/bootstrap-hover-dropdown.min.js') !!}
 @stop
 
 <div class="container">
