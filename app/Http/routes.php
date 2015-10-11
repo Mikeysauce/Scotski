@@ -27,8 +27,8 @@ Route::get('facilities/hotel','facilitiesController@hotel');
 Route::get('facilities/food','facilitiesController@food');
 Route::get('facilities/spa','facilitiesController@spa');
 Route::get('facilities/gym','facilitiesController@gym');
-
-Route::get('posts/create','PostsController@create');
+Route::get('posts',
+  ['as' => 'posts', 'uses' => 'PostsController@index']);
 Route::post('posts/create','PostsController@store');
 Route::post('posts/update','PostsController@update');
 

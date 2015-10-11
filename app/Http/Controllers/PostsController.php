@@ -13,20 +13,20 @@ use Input;
 class PostsController extends Controller
 {
 
-    public function create() {
+    public function index() {
         if (!Auth::check()) return \Redirect::to('home');
         $posts = Post::all();
-        return view('posts.create', ['posts' => $posts]);
+        return view('posts.view', ['posts' => $posts]);
      }
     public function store(PostsRequest $request) {
         if (!Auth::check()) return \Redirect::to('home');
         $post = new Post;
+        $post->title = $request->input('title');
         $post->content = $request->input('content');
         $post->save();
 
         $posts = Post::all();
-        return view('home', ['posts' => $posts]);
-    }
+        return \Redirect::route('posts', ['posts' => $posts])->with('message', 'Your post has been created!');    }
     public function update()
     {
         if (!Auth::check()) return \Redirect::to('home');
@@ -38,6 +38,7 @@ class PostsController extends Controller
         $post->save();
         }
         $posts = Post::all();
-        return view('posts.create', ['posts' => $posts]);
+        return \Redirect::route('posts', ['posts' => $posts])->with('message', 'Your post has been updated!');
+        // return view('posts.create', ['posts' => $posts]);
     }
 }
