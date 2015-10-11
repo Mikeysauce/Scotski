@@ -25,6 +25,7 @@ class PostsController extends Controller
         $post->content = $request->input('content');
         $post->save();
 
+
         $posts = Post::all();
         return \Redirect::route('posts', ['posts' => $posts])->with('message', 'Your post has been created!');    }
     public function update()
