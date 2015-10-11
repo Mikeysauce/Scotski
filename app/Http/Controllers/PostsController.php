@@ -37,6 +37,6 @@ class PostsController extends Controller
         } else {
         $post->save();
         }
-        return view('locations');
+        return view('posts/create');
     }
 }
