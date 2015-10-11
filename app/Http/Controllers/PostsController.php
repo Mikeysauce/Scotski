@@ -37,6 +37,7 @@ class PostsController extends Controller
         } else {
         $post->save();
         }
+        $posts = Post::all();
         return view('posts.create', ['posts' => $posts]);
     }
 }
