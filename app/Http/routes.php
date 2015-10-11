@@ -30,6 +30,7 @@ Route::get('facilities/gym','facilitiesController@gym');
 
 Route::get('posts/create','PostsController@create');
 Route::post('posts/create','PostsController@store');
+Route::post('posts/update','PostsController@update');
 
 Route::get('auth/login', 'Auth\AuthController@getLogin');
 Route::post('auth/login', 'Auth\AuthController@postLogin');
