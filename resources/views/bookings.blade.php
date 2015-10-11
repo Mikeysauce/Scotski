@@ -59,6 +59,9 @@
         </table>
     </div>
 </div>
+<p>
+<i>Children under 16 years of age will receive a 40 percent reduction in the full adult cost.</i>
+</p>
 </div>
 </div>
 <div class="row">
@@ -83,17 +86,6 @@
          <p>Manager name<br>Cairngorm Valley<br>Scotland<br> United Kingdom<br><i class="fa fa-phone fa-fw"></i> (44) 1333-321536</p>
     </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
 <ul>
     @foreach($errors->all() as $error)
         <li>{{ $error }}</li>
