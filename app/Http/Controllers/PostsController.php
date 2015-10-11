@@ -37,6 +37,6 @@ class PostsController extends Controller
         } else {
         $post->save();
         }
-        return view('posts/create');
+        return view('posts.create', ['posts' => $posts]);
     }
 }
