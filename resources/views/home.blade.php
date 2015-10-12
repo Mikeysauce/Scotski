@@ -4,7 +4,7 @@
 <div class="jumbotron nicer">
 <div class="row">
 	<div class="col-md-12">
-		<h2 class="special">Welcome to ScotSki, home of Scotland's biggest snow resorts</h2>
+			<h2 class="special">Welcome to ScotSki, home of Scotland's biggest snow resorts</h2>
 		<hr class="style-one" />
 		@foreach ($posts as $post)
 		    <p>{{ $post->content }}</p>

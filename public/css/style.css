@@ -420,9 +420,15 @@ font-family: 'Roboto Slab';
         border-top:0 none;
     }
 }
-.nav.navbar-nav.translation-links a {
-    padding: 13px 1px;
+.translation-links li {
+    display:inline;
 }
+.translation-links li a {
+       padding: 12px 2px;
+    margin: 0px;
+}
+/*.translation-links li a { padding: 13px 1px; }*/
+
 
 
 
@@ -431,7 +437,13 @@ font-family: 'Roboto Slab';
 #custom-bootstrap-menu.navbar-default .navbar-nav.translation-links>li>a:focus {
     color: rgba(248, 248, 248, 1);
     background-color: rgba(255, 255, 255, 0);
-
 }
+
 .goog-te-banner-frame {display:none !important}
 body {top: 0px !important; position: static !important; }
+
+.langwrap {
+margin-top: -15px;
+padding: 0px;
+margin-left: -30px;
+}
