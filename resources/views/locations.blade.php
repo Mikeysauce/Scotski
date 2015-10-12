@@ -10,7 +10,7 @@
                 <h2 class="txtcolour">
                     Glencoe
                 </h2>
-				<div class="tempwrap
+				<div class="tempwrap">
 					<h4>
 					<span style="color:#337ab7;">Current Temperature</span>:
 					<span class="glencoetemperature" style="color: #5a5a5a;font-size: 15px;"></span>
