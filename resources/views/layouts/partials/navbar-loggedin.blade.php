@@ -17,7 +17,13 @@
                 <li class="{{ Request::is('facilities') ? 'active' : '' }}"><a href="{{ URL::to('facilities') }}">Facilities</a></li>
                 <li class="{{ Request::segment(1) === 'penguinclub' ? 'active' : null }}"><a href="{{ URL::to('penguinclub') }}">Penguin Club</a></li>
               </ul>
-             <ul class="nav navbar-nav navbar-right" style="margin-right: 0px;">
+                      <ul class="list-inline navbar-right translation-links">
+        <li><a href="#" class="spanish" data-lang="Spanish"><img src="{{asset('flag/ES.png')}}"></a></li>
+        <li><a href="#" class="english" data-lang="English"><img src="{{asset('flag/GB.png')}}"></a></li>
+        <li><a href="#" class="french" data-lang="French"><img src="{{asset('flag/FR.png')}}"></a></li>
+        <li><a href="#" class="german" data-lang="German"><img src="{{asset('flag/DE.png')}}"></a></li>
+    </ul>
+             <ul class="nav navbar-nav navbar-right" id="testingsd">
                  <li class="dropdown">
                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Admin<span class="caret"></span></a>
                      <ul class="dropdown-menu">
@@ -28,12 +34,5 @@
             </ul>
     </div>
  </nav>
-     <div class="langwrap">
-    <ul class="translation-links">
-        <li><a href="#" class="spanish" data-lang="Spanish"><img src="{{asset('flag/ES.png')}}"></a></li>
-        <li><a href="#" class="english" data-lang="English"><img src="{{asset('flag/GB.png')}}"></a></li>
-        <li><a href="#" class="french" data-lang="French"><img src="{{asset('flag/FR.png')}}"></a></li>
-        <li><a href="#" class="german" data-lang="German"><img src="{{asset('flag/DE.png')}}"></a></li>
-    </ul>
-</div>
+
 </div>

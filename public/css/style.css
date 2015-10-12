@@ -420,17 +420,6 @@ font-family: 'Roboto Slab';
         border-top:0 none;
     }
 }
-.translation-links li {
-    display:inline;
-}
-.translation-links li a {
-       padding: 12px 2px;
-    margin: 0px;
-}
-/*.translation-links li a { padding: 13px 1px; }*/
-
-
-
 
 
 #custom-bootstrap-menu.navbar-default .navbar-nav.translation-links>li>a:hover,
@@ -446,4 +435,31 @@ body {top: 0px !important; position: static !important; }
 margin-top: -15px;
 padding: 0px;
 margin-left: -30px;
+}
+label {
+    color:rgba(119, 119, 119, 1);
+}
+
+@media all and (min-width: 768px) {
+#testingsd {
+    margin:0px;
+}
+}
+
+
+@media (min-width: 768px) {
+.translation-links {
+    float: left;
+    margin: 0;
+}
+}
+.translation-links {
+    margin: 12.5px 5px;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.translation-links a {
+    padding:0px;
+    margin:-10px;
 }
