@@ -15,6 +15,6 @@ elixir(function(mix) {
     mix.scripts([
         'mymap.js',
         'jquery.simpleWeather.min.js',
-        'weather.js'
+        'weather.js',
     ]);
 });
