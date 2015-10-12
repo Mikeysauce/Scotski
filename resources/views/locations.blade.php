@@ -17,7 +17,6 @@
                     <span class="glencoecurrently" style="color: #5a5a5a;font-size: 15px;"></span>
 					</h4>
 				</div>
-
                 <p>
                     The resort is situated in an area of outstanding natural beauty on Rannoch Moor
                     and offers stunning views of the iconic Buachaille Etive Mor. The onsite
@@ -43,17 +42,12 @@
                     <span class="glensheecurrently" style="color: #5a5a5a;font-size: 15px;"></span>
 					</h4>
 				</div>
-                <p>
-                    The resort is situated in an area of outstanding natural beauty on Rannoch Moor
-                    and offers stunning views of the iconic Buachaille Etive Mor. The onsite
-                    campsite boasts a large camping area, hook-ups and microlodges.
+                 <p>
+                Glenshee Ski Centre is the largest ski resort in Scotland and is sometimes referred to as the Scottish three valleys
                 </p>
                 <p>
-                    In summer the centre offers chairlift rides, mountain biking (Downhill and XC),
-                    tubing, hill-walking, climbing, photography and great home cooked food in the
-                    panoramic log cabin cafe.
+                 Situated in the east of Scotland, this area runs over 3 valleys and four mountains and offers the largest lift system of all the areas in Scotland. There is skiing and boarding for everyone, whatever their level, with exclusive nursery areas near the main car park.
                 </p>
-
             </div>
             <div class="col-md-8" id="Glenshee-map-container"></div>
         </div>
