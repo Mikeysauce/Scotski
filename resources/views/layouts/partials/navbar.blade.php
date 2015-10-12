@@ -17,47 +17,14 @@
                 <li class="{{ Request::is('facilities') ? 'active' : '' }}"><a href="{{ URL::to('facilities') }}">Facilities</a></li>
                 <li class="{{ Request::segment(1) === 'penguinclub' ? 'active' : null }}"><a href="{{ URL::to('penguinclub') }}">Penguin Club</a></li>
               </ul>
-        <ul class="list-inline navbar-right translation-links">
+        <ul class="flagnav navbar-flag flagbar-right">
         <li><a href="#" class="spanish" data-lang="Spanish"><img src="{{asset('flag/ES.png')}}"></a></li>
         <li><a href="#" class="english" data-lang="English"><img src="{{asset('flag/GB.png')}}"></a></li>
         <li><a href="#" class="french" data-lang="French"><img src="{{asset('flag/FR.png')}}"></a></li>
         <li><a href="#" class="german" data-lang="German"><img src="{{asset('flag/DE.png')}}"></a></li>
     </ul>
-      <ul class="nav navbar-nav navbar-right" id="testingsd">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login <span class="caret"></span></a>
-            <ul id="login-dp" class="dropdown-menu">
-                <li>
-                     <div class="row">
-                            <div class="col-md-12">
-                                 <form class="form" role="form" method="POST" action="/auth/login" accept-charset="UTF-8" id="login-nav">
-                                        <div class="form-group">
-                                             <label class="sr-only" for="exampleInputEmail2">Email address</label>
-                                             <input type="email" class="form-control" name="email" value="{{ old('email') }}" placeholder="E-mail">
-                                        </div>
-                                        <div class="form-group">
-                                             <label class="sr-only" for="exampleInputPassword2">Password</label>
-                                             <input type="password" class="form-control" name="password" placeholder="Password">
-                                        </div>
-                                        <div class="form-group">
-                                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                                             <button type="submit" class="btn btn-primary btn-block">Sign in</button>
-                                        </div>
-                                        <label>
-<input type="checkbox" name="remember"> Remember Me
-</label>
-                                 </form>
-                            </div>
-                     </div>
-                </li>
-            </ul>
-        </li>
-
-      </ul>
      </div>
-
     </nav>
-
 </div>
 
 

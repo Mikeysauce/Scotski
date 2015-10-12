@@ -445,21 +445,41 @@ label {
     margin:0px;
 }
 }
+.navbar-flag {
+  margin: 11.5px -15px;
+}
+.navbar-flag > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
 
-
+}
+.flagnav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.flagnav > li {
+  position: relative;
+  display: inline;
+}
+.flagnav > li > a {
+  position: relative;
+  display: inline;
+  padding: 2px 5px;
+}
 @media (min-width: 768px) {
-.translation-links {
-    float: left;
-    margin: 0;
-}
-}
-.translation-links {
-    margin: 12.5px 5px;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-}
-.translation-links a {
-    padding:0px;
-    margin:-10px;
-}
+  .flagbar-right {
+    float: right !important;
+    margin-right: -5px;
+  }
+  .flagbar-right ~ .flagbar-right {
+    margin-right: 0;
+  }
+
+/*#custom-bootstrap-menu.navbar-default .translation-links li {
+   background:blue;
+}*/
+/*.translation-links ul { background:red; }
+.translation-links li { display:inline; }*/
+
