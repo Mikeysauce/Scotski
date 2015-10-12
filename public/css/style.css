@@ -431,6 +431,7 @@ font-family: 'Roboto Slab';
 #custom-bootstrap-menu.navbar-default .navbar-nav.translation-links>li>a:focus {
     color: rgba(248, 248, 248, 1);
     background-color: rgba(255, 255, 255, 0);
+
 }
 .goog-te-banner-frame {display:none !important}
 body {top: 0px !important; position: static !important; }
