@@ -1,17 +1,13 @@
-if("geolocation" in navigator)  {
 		glencoeWeather(56.635400 + ',' + -4.829665);
 		glensheeWeather(56.890246  + ',' + -3.420163);
 		cairngormWeather(57.131372  + ',' + -3.668164);
 		nevisWeather(56.852794 + ',' + -4.998436);
 		lechtWeather(57.212004 + ',' + -3.267242);
-}
-else {
-		glencoeWeather("Kolkata, IN", "");
-	}
+
 		$(document).ready(function() {
 			setInterval(glencoeWeather, 10000);
 		});
-		
+
 		function glencoeWeather(location, woeid) {
 			$.simpleWeather({
 				location: location,
@@ -30,7 +26,7 @@ else {
 					$(".glencoetemperature").html(temp);
 
 				},
-				
+
 				error:function(error) {
 					$(".error").html('<p>' + error + '</p>');
 				}
@@ -43,7 +39,7 @@ else {
 				unit: 'c',
 				success: function(weather) {
 					city = weather.city;
-					temp = weather.temp+'&deg;';
+					temp = weather.temp+'&deg;C ';
 					wcode = '<img class="weathericon" src="./images/weathericons/' + weather.code +  '.svg">';
 					currently = weather.text;
 
@@ -52,7 +48,7 @@ else {
 					$(".glensheetemperature").html(temp);
 
 				},
-				
+
 				error:function(error) {
 					$(".error").html('<p>' + error + '</p>');
 				}
@@ -65,15 +61,15 @@ else {
 				unit: 'c',
 				success: function(weather) {
 					city = weather.city;
-					temp = weather.temp+'&deg;';
+					temp = weather.temp+'&deg;C ';
 					currently = weather.text;
 
 					$(".cairngormcurrently").html(currently);
-					
+
 					$(".cairngormtemperature").html(temp);
 
 				},
-				
+
 				error:function(error) {
 					$(".error").html('<p>' + error + '</p>');
 				}
@@ -86,15 +82,15 @@ else {
 				unit: 'c',
 				success: function(weather) {
 					city = weather.city;
-					temp = weather.temp+'&deg;';
+					temp = weather.temp+'&deg;C ';
 					currently = weather.currently;
 
 					$(".neviscurrently").html(currently);
-					
+
 					$(".nevistemperature").html(temp);
 
 				},
-				
+
 				error:function(error) {
 					$(".error").html('<p>' + error + '</p>');
 				}
@@ -107,16 +103,16 @@ else {
 				unit: 'c',
 				success: function(weather) {
 					city = weather.city;
-					temp = weather.temp+'&deg;';
+					temp = weather.temp+'&deg;C ';
 					currently = weather.currently;
 
 					$(".lechtcurrently").html(currently);
 
-					
+
 					$(".lechttemperature").html(temp);
 
 				},
-				
+
 				error:function(error) {
 					$(".error").html('<p>' + error + '</p>');
 				}
