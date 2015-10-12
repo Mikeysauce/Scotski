@@ -1,11 +1,10 @@
     function init_map()
     {
-		
-        var glencoe = new google.maps.LatLng( 56.633736, -4.827271 );
-        var glenshee = new google.maps.LatLng( 56.8870227, -3.4154393, 17 );
-        var cairngorm = new google.maps.LatLng( 57.1337337, -3.6701872, 10 );
-		var nevis = new google.maps.LatLng( 56.851961,-5.000196,12 );
-        var lecht = new google.maps.LatLng( 57.20094,-3.2476723,12 );
+        var glencoe = new google.maps.LatLng(56.633736, -4.827271);
+        var glenshee = new google.maps.LatLng(56.8870227, -3.4154393, 17);
+        var cairngorm = new google.maps.LatLng(57.1337337, -3.6701872, 10);
+		var nevis = new google.maps.LatLng(56.851961,-5.000196,12);
+        var lecht = new google.maps.LatLng(57.20094,-3.2476723,12);
         var glencoe_mapoptions = {
             center: glencoe,
             zoom  : 12
@@ -31,21 +30,31 @@
         var cairngorm_map = new google.maps.Map( document.getElementById( "Cairngorm-map-container" ), cairngorm_mapoptions );
         var glencoe_map = new google.maps.Map( document.getElementById( "Glencoe-map-container" ), glencoe_mapoptions );
         var glenshee_map = new google.maps.Map( document.getElementById( "Glenshee-map-container" ), glenshee_mapoptions );
-        var lecht_contentString = '<div id="infowindow_content"><p><strong>The Lecht</strong><br>this is a' +
-                'n example of a line with information<br>second line of infotext<br>third line of' +
-                ' infotext</p><a href="lols" target="_blank">This is a link</a></div>';
-        var nevis_contentString = '<div id="infowindow_content"><p><strong>Nevis Range</strong><br>this is a' +
-                'n example of a line with information<br>second line of infotext<br>third line of' +
-                ' infotext</p><a href="lols" target="_blank">This is a link</a></div>';
-        var cairngorm_contentString = '<div id="infowindow_content"><p><strong>Cairngorm Mountain</strong><br>this is a' +
-                'n example of a line with information<br>second line of infotext<br>third line of' +
-                ' infotext</p><a href="lols" target="_blank">This is a link</a></div>';
-        var glencoe_contentString = '<div id="infowindow_content"><p><strong>Glencoe Mountain</strong><br>this is an ' +
-                'example of a line with information<br>second line of infotext<br>third line of i' +
-                'nfotext</p><a href="lols" target="_blank">This is a link</a></div>';
-        var glenshee_contentString = '<div id="infowindow_content"><p><strong>Glenshee Mountain</strong><br>this sdsds' +
-                'dne with information<br>second line of infotext<br>third line of infotext</p><a ' +
-                'href="lols" target="_blank">This is a link</a></div>';
+        var lecht_contentString =
+         '<div id="infowindow_content"><p><strong>The Lecht</strong><br>' +
+         'Follow the A939.<br>' +
+         'Feel free to contact us for more in-depth directions.<br>' +
+         '<i class="fa fa-phone fa-fw"></i>01975 651440</p></div>';
+        var nevis_contentString =
+         '<div id="infowindow_content"><p><strong>Nevis Range</strong><br>' +
+         'Follow the A82.<br>' +
+         'Feel free to contact us for more in-depth directions.<br>' +
+         '<i class="fa fa-phone fa-fw"></i>01397 705825</p></div>';
+        var cairngorm_contentString =
+         '<div id="infowindow_content"><p><strong>Cairngorm</strong><br>' +
+         'At the roundabout, take the 3rd exit onto B970.<br>' +
+         'Feel free to contact us for more in-depth directions.<br>' +
+         '<i class="fa fa-phone fa-fw"></i>01479 861261</p></div>';
+        var glencoe_contentString =
+         '<div id="infowindow_content"><p><strong>Glencoe</strong><br>' +
+         'Follow the A82.<br>' +
+         'Feel free to contact us for more in-depth directions.<br>' +
+         '<i class="fa fa-phone fa-fw"></i>01855 851226</p></div>';
+        var glenshee_contentString =
+         '<div id="infowindow_content"><p><strong>Glenshee</strong><br>' +
+         'Follow the A93.<br>' +
+         'Feel free to contact us for more in-depth directions.<br>' +
+         '<i class="fa fa-phone fa-fw"></i>01339 741320</p></div>';
         var lecht_infowindow = new google.maps.InfoWindow(
         {
             content: lecht_contentString
