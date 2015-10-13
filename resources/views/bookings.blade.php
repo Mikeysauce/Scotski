@@ -1,4 +1,5 @@
 @extends('layouts.master')
+@section('title', 'Bookings')
 @section('content')
     @if(Session::has('message'))
     <div class="alert alert-info">

@@ -1,4 +1,5 @@
 @extends('layouts.master')
+@section('title', 'Piste Maps')
 @section('scripts')
 {!! Html::script('/js/lightbox.js') !!}
 @stop
@@ -16,7 +17,7 @@
                 <p>However what few people know is that Glencoe also has a large plateau area which makes the perfect setting for those new to snow sports. Further improvements to the beginner's area have been made for this season with a new rope tow across the plateau which has its very own snow cannon to ensure that the very best snow conditions are always available.</p>
             </div>
             <div class="col-md-6">
-              <a href="http://www.piste-maps.co.uk/Piste-Maps/Scotland/Glencoe-Piste-Map.jpg" data-title="Glencoe Piste map" data-lightbox="image-1"><img src="http://www.piste-maps.co.uk/Piste-Maps/Scotland/Glencoe-Piste-Map.jpg" class="img-responsive pistes" /></a>
+              <a alt="Glencoe Piste Map" href="http://www.piste-maps.co.uk/Piste-Maps/Scotland/Glencoe-Piste-Map.jpg" data-title="Glencoe Piste map" data-lightbox="image-1"><img src="http://www.piste-maps.co.uk/Piste-Maps/Scotland/Glencoe-Piste-Map.jpg" class="img-responsive pistes" /></a>
             </div>
 </div>
 
@@ -29,7 +30,7 @@
                 <p>Glenshee offers a choice of 36 runs comprising 40 kms of pisted snow. The longest single run, Glas Maol, extends to a fantastic 2 kms of skiing, while the extensive snow-making facilities means the centre is often open for longer.</p>
             </div>
             <div class="col-md-6">
-                  <a href="http://www.piste-maps.co.uk/Piste-Maps/Scotland/Glenshee-Piste-Map.jpg" data-title="Glenshee Piste map" data-lightbox="image-1"><img src="http://www.piste-maps.co.uk/Piste-Maps/Scotland/Glenshee-Piste-Map.jpg" class="img-responsive pistes" /></a>
+                  <a alt="Piste Map" href="http://www.piste-maps.co.uk/Piste-Maps/Scotland/Glenshee-Piste-Map.jpg" data-title="Glenshee Piste map" data-lightbox="image-1"><img src="http://www.piste-maps.co.uk/Piste-Maps/Scotland/Glenshee-Piste-Map.jpg" class="img-responsive pistes" /></a>
             </div>
 </div>
 
@@ -41,7 +42,7 @@
                 <p>Whether you're a skier or not, the ride on the train to the Ptarmigan Top Station is a unique experience with an opportunity to take in fantastic panoramic views of the surrounding area.</p>
             </div>
             <div class="col-md-6">
-              <a href="http://www.piste-maps.co.uk/Piste-Maps/Scotland/Cairngorm-Piste-Map.jpg" data-title="Cairngorm Piste map" data-lightbox="image-1"><img src="http://www.piste-maps.co.uk/Piste-Maps/Scotland/Cairngorm-Piste-Map.jpg" class="img-responsive pistes" /></a>
+              <a alt="Piste Map" href="http://www.piste-maps.co.uk/Piste-Maps/Scotland/Cairngorm-Piste-Map.jpg" data-title="Cairngorm Piste map" data-lightbox="image-1"><img src="http://www.piste-maps.co.uk/Piste-Maps/Scotland/Cairngorm-Piste-Map.jpg" class="img-responsive pistes" /></a>
             </div>
 </div>
 
@@ -52,7 +53,7 @@
                 <p>The base of the snowsports area is accessed by the UK’s only mountain gondola taking visitors from the car park just above sea level to 650 metres (2,150 feet). The beginner's area is literally a stone’s throw away from the Snowgoose restaurant at the top station, with a variety of easy green and blue graded runs. An artificial slope also provides skiing opportunities when snow is lean.</p>
             </div>
             <div class="col-md-6">
-              <a href="http://www.piste-maps.co.uk/Piste-Maps/Scotland/Nevis-Range-Piste-Map.jpg" data-title="Nevis-Range Piste map" data-lightbox="image-1"><img src="http://www.piste-maps.co.uk/Piste-Maps/Scotland/Nevis-Range-Piste-Map.jpg" class="img-responsive pistes" /></a>
+              <a alt="Piste Map" href="http://www.piste-maps.co.uk/Piste-Maps/Scotland/Nevis-Range-Piste-Map.jpg" data-title="Nevis-Range Piste map" data-lightbox="image-1"><img src="http://www.piste-maps.co.uk/Piste-Maps/Scotland/Nevis-Range-Piste-Map.jpg" class="img-responsive pistes" /></a>
             </div>
 </div>
 
@@ -63,7 +64,7 @@
                 <p>Operating since the mid 1970s, the resort has grown from one ski tow to a year-round highland activity centre with 20 maintained ski runs and 15 lifts. This is one of Scotland’s top ski resorts and is accessible from one of the most scenically beautiful roads in Scotland, the A939, between Timintoul and Strathdon and can be reached easily from Speyside and Aviemore, Donside and Aberdeen as well as royal Deeside.</p>
             </div>
             <div class="col-md-6">
-              <a href="http://www.piste-maps.co.uk/Piste-Maps/Scotland/TheLecht-PisteMap.jpg" data-title="The Lecht Piste map" data-lightbox="image-1"><img src="http://www.piste-maps.co.uk/Piste-Maps/Scotland/TheLecht-PisteMap.jpg" class="img-responsive pistes" /></a>
+              <a alt="Piste Map" href="http://www.piste-maps.co.uk/Piste-Maps/Scotland/TheLecht-PisteMap.jpg" data-title="The Lecht Piste map" data-lightbox="image-1"><img src="http://www.piste-maps.co.uk/Piste-Maps/Scotland/TheLecht-PisteMap.jpg" class="img-responsive pistes" /></a>
             </div>
 </div>
 @stop

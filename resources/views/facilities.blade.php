@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title', 'Welcome to Scotski!')
+@section('title', 'Facilities')
 @section('scripts')
 {!! Html::script('/js/lightbox.js') !!}
 @stop

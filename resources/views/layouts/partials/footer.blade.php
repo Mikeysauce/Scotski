@@ -7,8 +7,6 @@
             <li><a class="soc-twitter" href="#"></a></li>
             <li><a class="soc-facebook" href="#"></a></li>
             <li><a class="soc-google" href="#"></a></li>
-            <li><a class="soc-pinterest" href="#"></a></li>
-            <li><a class="soc-email1 soc-icon-last" href="#"></a></li>
         </ul>
 <p class="pull-right" id="special">
 Website by Michael Shelton<BR>
