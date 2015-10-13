@@ -12,8 +12,8 @@ class facilitiesController extends Controller
     public function index() {
         return view('facilities');
     }
-    public function scenery() {
-        return view('facilities.scenery');
+    public function pistes() {
+        return view('facilities.pistes');
     }
     public function food() {
         return view('facilities.food');

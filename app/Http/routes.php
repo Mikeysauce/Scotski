@@ -22,7 +22,7 @@ Route::get('locations', 'HomeController@locations');
 Route::get('penguinclub', 'HomeController@penguinclub');
 
 Route::get('facilities','facilitiesController@index');
-Route::get('facilities/scenery','facilitiesController@scenery');
+Route::get('facilities/pistes','facilitiesController@pistes');
 Route::get('facilities/hotel','facilitiesController@hotel');
 Route::get('facilities/food','facilitiesController@food');
 Route::get('facilities/spa','facilitiesController@spa');

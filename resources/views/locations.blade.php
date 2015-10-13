@@ -5,7 +5,7 @@
 {!! Html::script('/js/all.js') !!}
 @stop
 @section('content')
-        <div class="col-md-12 map-outer">
+<div class="col-md-12 map-outer">
             <div class="col-md-4" >
                 <h2 class="txtcolour">
                     Glencoe
@@ -113,5 +113,5 @@
 				</p>
             </div>
             <div class="col-md-8" id="lecht-map-container"></div>
-        </div>
+</div>
 @stop

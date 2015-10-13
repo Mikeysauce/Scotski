@@ -21,9 +21,9 @@
                     <img class="img-responsive facpage" src="./images/otherbg.jpg" alt="">
                 </a>
                 <h3>
-                  <a href="{{ URL::to('facilities/scenery') }}">Scenery</a>
+                  <a href="{{ URL::to('facilities/pistes') }}">Pistes</a>
                 </h3>
-                <p>Perfectly located at the heart of the best peaks in Scotland</p>
+                <p>Perfectly located at the heart of the best peaks in Scotland.</p>
             </div>
 
             <div class="col-xs-12 col-sm-6 col-md-4 portfolio-item">

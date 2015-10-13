@@ -10,7 +10,7 @@
             <div class="col-lg-12">
                 <h2 class="special">Penguin Club
                     <small>Great fun for the little ones</small>
-                </h1>
+                </h2>
                 <hr class="style-one" />
             </div>
         </div>
