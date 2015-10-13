@@ -21,7 +21,7 @@
                     <img class="img-responsive facpage" src="./images/otherbg.jpg" alt="">
                 </a>
                 <h3>
-                   Scenery
+                  <a href="{{ URL::to('facilities/scenery') }}">Scenery</a>
                 </h3>
                 <p>Perfectly located at the heart of the best peaks in Scotland</p>
             </div>
@@ -41,7 +41,7 @@
                     <img class="img-responsive facpage" src="./images/3.png" alt="">
                 </a>
                 <h3>
-                   Food & Drinks
+                   <a href="{{ URL::to('facilities/food') }}">Food & Drinks</a>
                 </h3>
                 <p>All of resorts have a bookings only restaurant, pub and an all day cafe.</p>
             </div>
@@ -50,7 +50,7 @@
                     <img class="img-responsive facpage" src="./images/main5.jpg" alt="">
                 </a>
                 <h3>
-                    Spa & Sauna
+                     <a href="{{ URL::to('facilities/spa') }}">Spa & Sauna</a>
                 </h3>
                 <p>All of our resorts have a day spa and 24 hour access to the sauna and jacuzzi.</p>
             </div>
@@ -60,7 +60,7 @@
                     <img class="img-responsive facpage" src="./images/gym.jpg" alt="">
                 </a>
                 <h3>
-                    Gym
+                   <a href="{{ URL::to('facilities/gym') }}">Gym</a>
                 </h3>
                 <p>All of our resorts have a 24 hour gym for use at any time.</p>
             </div>
@@ -70,7 +70,7 @@
                     <img class="img-responsive facpage" src="./images/penguin3.jpg" alt="">
                 </a>
                 <h3>
-                    Penguin Club
+                    <a href="{{ URL::to('penguinclub') }}">Penguin Club</a>
                 </h3>
                 <p>You can find more information about the Penguin Club in our dedicated section in the menu above.</p>
             </div>
