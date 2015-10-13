@@ -9,6 +9,7 @@ use App\Http\Requests\PostsRequest;
 use App\Post;
 use Auth;
 use Input;
+use Carbon\Carbon;
 
 class PostsController extends Controller
 {
@@ -23,6 +24,7 @@ class PostsController extends Controller
         $post = new Post;
         $post->title = $request->input('title');
         $post->content = $request->input('content');
+        $post->created_at = Carbon::now();
         $post->save();
 
 
@@ -33,6 +35,7 @@ class PostsController extends Controller
         if (!Auth::check()) return \Redirect::to('home');
         $post = Post::find(Input::get('id'));
         $post->content = Input::get('content');
+        $post->updated_at = Carbon::now();
         if (Input::get('content') == '') {
         $post->delete();
         } else {
