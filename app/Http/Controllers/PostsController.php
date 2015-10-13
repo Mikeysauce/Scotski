@@ -9,7 +9,6 @@ use App\Http\Requests\PostsRequest;
 use App\Post;
 use Auth;
 use Input;
-use Carbon\Carbon;
 
 class PostsController extends Controller
 {
@@ -24,25 +23,21 @@ class PostsController extends Controller
         $post = new Post;
         $post->title = $request->input('title');
         $post->content = $request->input('content');
-        $post->created_at = Carbon::now();
         $post->save();
-
-
         $posts = Post::all();
-        return \Redirect::route('posts', ['posts' => $posts])->with('message', 'Your post has been created!');    }
-    public function update()
-    {
+        return \Redirect::route('posts', ['posts' => $posts])->with('message', 'Your post has been created!');
+    }
+    public function update() {
         if (!Auth::check()) return \Redirect::to('home');
         $post = Post::find(Input::get('id'));
         $post->content = Input::get('content');
-        $post->updated_at = Carbon::now();
         if (Input::get('content') == '') {
         $post->delete();
-        } else {
+        }
+        else {
         $post->save();
         }
         $posts = Post::all();
         return \Redirect::route('posts', ['posts' => $posts])->with('message', 'Your post has been updated!');
-        // return view('posts.create', ['posts' => $posts]);
     }
 }
