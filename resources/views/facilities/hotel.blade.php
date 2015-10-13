@@ -21,7 +21,11 @@ Travel to your holiday destination is not included in the price, however, transf
 <p>
 For travel information and maps to each of our resorts view the locations section above.
 </p>
-
+ <ol class="breadcrumb">
+  <li><a href="{{ URL::to('home') }}">Home</a></li>
+  <li><a href="{{ URL::to('facilities') }}">Facilities</a></li>
+  <li class="active">Hotel</li>
+</ol>
 </div>
 </div>
 @stop
