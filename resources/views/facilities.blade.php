@@ -31,7 +31,7 @@
                     <img class="img-responsive facpage" src="./images/somebg.jpg" alt="">
                 </a>
                 <h3>
-                    Hotel
+                   <a href="{{ URL::to('facilities/hotel') }}">Hotel</a>
                 </h3>
                 <p>Our staff know that client satisfaction is our number one priority and are always ready to satisfy any requests you may have.</p>
             </div>
