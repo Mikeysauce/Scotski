@@ -66,25 +66,25 @@
 </div>
 </div>
 <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-2 evenmore">
+    <div class="col-xs-6 col-sm-6 col-md-2 evenmore">
         <h2 class="special2">Glencoe</h2>
-         <p>Manager name<br>Cairngorm Valley<br>Scotland<br> United Kingdom<br><i class="fa fa-phone fa-fw"></i> (44) 1333-321536</p>
+         <p>Karen Smith<br>Argyll<br>Scotland<br>PH49 4HZ<br><i class="fa fa-phone fa-fw"></i> (44) 1333-321536</p>
     </div>
-    <div class="col-xs-12 col-sm-6 col-md-2 evenmore">
+    <div class="col-xs-6 col-sm-6 col-md-2 evenmore">
         <h2 class="special2">Glenshee</h2>
-         <p>Manager name<br>Cairngorm Valley<br>Scotland<br> United Kingdom<br><i class="fa fa-phone fa-fw"></i> (44) 1333-321536</p>
+         <p>George Allan<br>Braemar<br>Scotland<br>AB35 5XU<br><i class="fa fa-phone fa-fw"></i> (44) 1333-321536</p>
     </div>
-        <div class="col-xs-12 col-sm-6 col-md-2 evenmore">
+        <div class="col-xs-6 col-sm-6 col-md-2 evenmore">
         <h2 class="special2">Cairngorm</h2>
-         <p>Manager name<br>Cairngorm Valley<br>Scotland<br> United Kingdom<br><i class="fa fa-phone fa-fw"></i> (44) 1333-321536</p>
+         <p>Nicola Brown<br>Aviemore<br>Scotland<br>PH22 1RB<br><i class="fa fa-phone fa-fw"></i> (44) 1333-321536</p>
     </div>
-        <div class="col-xs-12 col-sm-6 col-md-2 evenmore">
+        <div class="col-xs-6 col-sm-6 col-md-2 evenmore">
         <h2 class="special2">Nevis</h2>
-         <p>Manager name<br>Cairngorm Valley<br>Scotland<br> United Kingdom<br><i class="fa fa-phone fa-fw"></i> (44) 1333-321536</p>
+         <p>Steven Boyd<br>Torlundy<br>Scotland<br>PH33 6SQ<br><i class="fa fa-phone fa-fw"></i> (44) 1333-321536</p>
     </div>
-        <div class="col-xs-12 col-sm-6 col-md-2 evenmore">
+        <div class="col-xs-6 col-sm-6 col-md-2 evenmore">
         <h2 class="special2">The Lecht</h2>
-         <p>Manager name<br>Cairngorm Valley<br>Scotland<br> United Kingdom<br><i class="fa fa-phone fa-fw"></i> (44) 1333-321536</p>
+         <p>Sarah Jones<br>Strathdon<br>Scotland<br>AB36 8YP<br><i class="fa fa-phone fa-fw"></i> (44) 1333-321536</p>
     </div>
 </div>
 <ul>

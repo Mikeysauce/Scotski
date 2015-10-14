@@ -9,7 +9,7 @@
   overflow: hidden;
 }
 @media all and (min-width : 992px) {
-  .evenmore { margin-left:25px }
+  .evenmore { margin-left:25px; }
 }
 .evenmore .special2 {
   text-align:left;
