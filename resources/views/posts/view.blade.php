@@ -12,6 +12,7 @@
  <div class="form-group">
 <form action="/posts/update" method="POST">
 <h4>{{ $post->title }}</h4> <p>This post was updated at {{ $post->updated_at->format('g:ia \o\n l jS F Y') }} </p>
+{{ $user }}
      <textarea id="content" name="content" rows="5" class="form-control">{{ $post->content }}</textarea>
      <input type="hidden" name="id" value="{{$post->id}}">
      <input type="hidden" name="_token" value="{{ csrf_token() }}">
