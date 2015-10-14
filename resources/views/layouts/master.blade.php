@@ -40,9 +40,6 @@
 @show
 @endif
 
-
-
-
 <div class="container">
 @yield('content')
 </div>
@@ -88,7 +85,8 @@ if(document.createEvent) {
     }
 });
 });
-        </script>
+</script>
+{!! Html::script('/js/scrollfix.js') !!}
 @yield('scripts')
 </body>
 </html>

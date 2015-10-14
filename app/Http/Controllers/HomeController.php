@@ -16,14 +16,6 @@ class HomeController extends Controller
 
         $posts = Post::all();
         return view('home', ['posts' => $posts]);
-
-        // $data = [
-        // 'test' => 'Something',
-        // 'another' => 'another test for me',
-        // 'again' => 'yet another test'
-        // ];
-
-        //return view('home', $data);
     }
 	public function locations() {
 		return view('locations');

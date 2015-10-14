@@ -1,11 +1,6 @@
 @extends('layouts.master')
 @section('title', 'Bookings')
 @section('content')
-    @if(Session::has('message'))
-    <div class="alert alert-info">
-      {{Session::get('message')}}
-    </div>
-@endif
  <div class="jumbotron nicer">
  <h2 class="special2">Book with us</h2>
     <hr class="style-two"/>
@@ -87,14 +82,12 @@
          <p>Sarah Jones<br>Strathdon<br>Scotland<br>AB36 8YP<br><i class="fa fa-phone fa-fw"></i> (44) 1333-321536</p>
     </div>
 </div>
-<ul>
-    @foreach($errors->all() as $error)
-        <li>{{ $error }}</li>
-    @endforeach
-</ul>
-
 {!! Form::open(array('route' => 'contact_store', 'class' => 'form')) !!}
-
+@if(Session::has('message'))
+<div class="alert alert-info">
+  {{Session::get('message')}}
+</div>
+@endif
 <div class="form-group">
     {!! Form::label('Your Name') !!}
     {!! Form::text('name', null,

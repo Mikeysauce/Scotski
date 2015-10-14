@@ -24,7 +24,8 @@ class PostsRequest extends Request
     public function rules()
     {
         return [
-            //
+            'content' => 'required',
+            'title' => 'required'
         ];
     }
 }

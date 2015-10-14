@@ -3,12 +3,11 @@
 <div class="jumbotron nicer">
         <h2 class="special">Edit the homepage</h2>
         <hr class="style-two" />
-    @if(Session::has('message'))
+@if(Session::has('message'))
     <div class="alert alert-info">
       {{Session::get('message')}}
     </div>
 @endif
-
  @foreach ($posts as $post)
  <div class="form-group">
 <form action="/posts/update" method="POST">
@@ -24,6 +23,7 @@
 <div class="jumbotron nicer">
         <h2 class="special">Add a new post to homepage</h2>
         <hr class="style-two" />
+        @include('layouts.partials.errors')
 <div class="form-group">
 	<form method="POST" action="/posts/create">
 		<div class="form-group">

@@ -24,11 +24,11 @@ public function store(ContactFormRequest $request)
             'user_message' => $request->get('message')
         ), function($message)
     {
-        $message->from('the.mikex@gmail.com');
+        $message->from('support@scotski.co.uk');
         $message->to('the.mikex@gmail.com', 'Admin')->subject('Scotski message');
     });
 
-  return \Redirect::route('contact')->with('message', 'Thanks for contacting us!');
+  return \Redirect::route('contact')->with('message', 'Thanks for contacting us');
 
 }
 }

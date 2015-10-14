@@ -25,7 +25,8 @@ class PostsController extends Controller
         $post->content = $request->input('content');
         $post->save();
         $posts = Post::all();
-        return \Redirect::route('posts', ['posts' => $posts])->with('message', 'Your post has been created!');
+        $winner = 'Your post "'. $post->title .'" has been created.';
+        return \Redirect::route('posts', ['posts' => $posts])->with('message', $winner);
     }
     public function update() {
         if (!Auth::check()) return \Redirect::to('home');
@@ -33,11 +34,15 @@ class PostsController extends Controller
         $post->content = Input::get('content');
         if (Input::get('content') == '') {
         $post->delete();
+        $posts = Post::all();
+        $winner = 'Your post "'. $post->title .'" has been deleted.';
+        return \Redirect::route('posts', ['posts' => $posts])->with('message', $winner);
         }
         else {
         $post->save();
-        }
         $posts = Post::all();
-        return \Redirect::route('posts', ['posts' => $posts])->with('message', 'Your post has been updated!');
+        $winner = 'Your post "'. $post->title .'" has been updated.';
+        return \Redirect::route('posts', ['posts' => $posts])->with('message', $winner);
+        }
     }
 }
