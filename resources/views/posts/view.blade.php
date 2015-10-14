@@ -1,7 +1,6 @@
 @extends('layouts.master')
 @section('content')
 @include('layouts.partials.errors')
-@include('layouts.partials.messages')
 <div class="jumbotron nicer">
     <h2 class="special">Edit the homepage</h2>
     <hr class="style-two" />
