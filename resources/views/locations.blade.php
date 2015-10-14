@@ -2,7 +2,7 @@
 @section('title', 'Locations')
 @section('scripts')
 <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-{!! Html::script('/js/all.js') !!}
+{!! Html::script('/js/map.js') !!}
 @stop
 @section('content')
 <div class="col-md-12 map-outer">

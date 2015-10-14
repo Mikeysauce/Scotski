@@ -1,6 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Bookings')
 @section('content')
+@include('layouts.partials.errors')
  <div class="jumbotron nicer">
  <h2 class="special2">Book with us</h2>
     <hr class="style-two"/>
@@ -83,11 +84,6 @@
     </div>
 </div>
 {!! Form::open(array('route' => 'contact_store', 'class' => 'form')) !!}
-@if(Session::has('message'))
-<div class="alert alert-info">
-  {{Session::get('message')}}
-</div>
-@endif
 <div class="form-group">
     {!! Form::label('Your Name') !!}
     {!! Form::text('name', null,

@@ -14,7 +14,10 @@ var elixir = require('laravel-elixir');
 elixir(function(mix) {
     mix.scripts([
         'mymap.js',
-        'jquery.simpleWeather.min.js',
-        'weather.js',
-    ]);
+        'jquery.simpleWeather.js',
+        'weather.js'
+    ],'./public/js/map.js');
+    mix.scripts([
+        'google_translate_flag_interaction.js'
+    ],'./public/js/alls.js');
 });

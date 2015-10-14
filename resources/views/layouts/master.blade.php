@@ -7,8 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width">
 	<meta name="google" content="notranslate" />
-
-	@yield('meta')
+  @yield('meta')
 
 	<!-- fonts -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
@@ -41,6 +40,8 @@
 @endif
 
 <div class="container">
+@section('messages')
+@include('layouts.partials.messages')
 @yield('content')
 </div>
 @section('footer')
@@ -60,33 +61,7 @@
 <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script>
 
 
-<script type="text/javascript">
-    function triggerHtmlEvent(element, eventName) {
-var event;
-if(document.createEvent) {
-    event = document.createEvent('HTMLEvents');
-    event.initEvent(eventName, true, true);
-    element.dispatchEvent(event);
-} else {
-    event = document.createEventObject();
-    event.eventType = eventName;
-    element.fireEvent('on' + event.eventType, event);
-}
-}
-        $('.translation-links a').click(function(e) {
-  e.preventDefault();
-  var lang = $(this).data('lang');
-  $('#google_translate_element select option').each(function(){
-    if($(this).text().indexOf(lang) > -1) {
-        $(this).parent().val($(this).val());
-        var container = document.getElementById('google_translate_element');
-        var select = container.getElementsByTagName('select')[0];
-        triggerHtmlEvent(select, 'change');
-    }
-});
-});
-</script>
-{!! Html::script('/js/scrollfix.js') !!}
+{!! Html::script('/js/alls.js') !!}
 @yield('scripts')
 </body>
 </html>

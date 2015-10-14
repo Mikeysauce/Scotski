@@ -14,7 +14,7 @@ class PostsController extends Controller
 {
 
     public function index() {
-        if (!Auth::check()) return \Redirect::to('home');
+        if (!Auth::check()) abort(404);
         $posts = Post::all();
         return view('posts.view', ['posts' => $posts]);
      }

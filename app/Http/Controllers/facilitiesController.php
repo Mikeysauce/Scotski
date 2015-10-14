@@ -9,25 +9,25 @@ use App\Http\Controllers\Controller;
 class facilitiesController extends Controller
 {
 
-    public function index() {
+    public function getIndex() {
         return view('facilities');
     }
-    public function pistes() {
+    public function getPistes() {
         return view('facilities.pistes');
     }
-    public function food() {
+    public function getFood() {
         return view('facilities.food');
     }
-    public function gym() {
+    public function getGym() {
         return view('facilities.gym');
     }
-    public function hotel() {
+    public function getHotel() {
         return view('facilities.hotel');
     }
-    public function spa() {
+    public function getSpa() {
         return view('facilities.spa');
     }
-    public function penguinclub() {
+    public function getPenguinclub() {
         return view('facilities.penguinclub');
     }
 }
