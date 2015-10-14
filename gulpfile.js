@@ -20,4 +20,7 @@ elixir(function(mix) {
     mix.scripts([
         'google_translate_flag_interaction.js'
     ],'./public/js/alls.js');
+        mix.styles([
+        'style.css'
+    ],'./public/css/style.css');
 });
