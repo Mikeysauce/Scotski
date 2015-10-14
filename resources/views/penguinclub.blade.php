@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Penguin Club, fun for all the kids!')
 @section('scripts')
-{!! Html::script('/js/lightbox.js') !!}
+{!! Html::script('//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.1/js/lightbox.min.js') !!}
 @stop
 @section('content')
 <div class="jumbotron nicer">

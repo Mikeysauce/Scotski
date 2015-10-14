@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('title', 'Piste Maps')
 @section('scripts')
-{!! Html::script('/js/lightbox.js') !!}
+{!! Html::script('//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.1/js/lightbox.min.js') !!}
 @stop
 @section('content')
 @if(Session::has('message'))
