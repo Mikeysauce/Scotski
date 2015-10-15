@@ -1,5 +1,5 @@
 var elixir = require('laravel-elixir');
-elixir.extend('sourcemaps', false);
+elixir.config.sourcemaps = false;
 
 /*
  |--------------------------------------------------------------------------
@@ -21,4 +21,7 @@ elixir(function(mix) {
     mix.scripts([
         'google_translate_flag_interaction.js'
     ],'./public/js/alls.js');
+    mix.styles([
+        'style.css'
+    ],'./public/css/style.css');
 });
