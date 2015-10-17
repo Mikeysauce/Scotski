@@ -22,6 +22,6 @@ elixir(function(mix) {
         'google_translate_flag_interaction.js'
     ],'./public/js/alls.js');
     mix.styles([
-        'style.css'
+        'app.css'
     ],'./public/css/style.css');
 });
