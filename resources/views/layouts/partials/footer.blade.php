@@ -10,9 +10,9 @@
             </p>
         </footer>
         <ul class="soc">
-            <li><a alt="twitter logo" class="soc-twitter" href="#"></a></li>
-            <li><a alt="facebook logo" class="soc-facebook" href="#"></a></li>
-            <li><a alt="google plus logo" class="soc-google" href="#"></a></li>
+            <li><a class="soc-twitter" href="#"></a></li>
+            <li><a class="soc-facebook" href="#"></a></li>
+            <li><a class="soc-google" href="#"></a></li>
         </ul>
         <p class="pull-right" id="special">
         Website by Michael Shelton<br>
