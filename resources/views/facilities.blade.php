@@ -4,21 +4,17 @@
 {!! Html::script('//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.1/js/lightbox.min.js') !!}
 @stop
 @section('content')
-    <div class="jumbotron nicer">
-
-                <div class="row">
-            <div class="col-lg-12">
- <h2 class="special2">Our Facilities</h2>
-      <hr class="style-two"/>
-            </div>
+<div class="jumbotron nicer">
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 class="special2">Our Facilities</h2>
+            <hr class="style-two"/>
         </div>
-        <!-- /.row -->
-
-        <!-- Projects Row -->
+</div>
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-4 portfolio-item">
                 <a href="./images/otherbg.jpg" data-lightbox="image-1" data-title="Click the right half of the image to move forward.">
-                    <img class="img-responsive facpage" src="./images/otherbg.jpg" alt="">
+                    <img class="img-responsive facpage" src="./images/otherbg.jpg" alt="Scenery cover image">
                 </a>
                 <h3>
                   <a href="{{ URL::to('facilities/pistes') }}">Pistes</a>
@@ -28,7 +24,7 @@
 
             <div class="col-xs-12 col-sm-6 col-md-4 portfolio-item">
                 <a href="./images/somebg.jpg" data-lightbox="image-2" data-title="Click the right half of the image to move forward.">
-                    <img class="img-responsive facpage" src="./images/somebg.jpg" alt="">
+                    <img class="img-responsive facpage" src="./images/somebg.jpg" alt="Hotel cover image">
                 </a>
                 <h3>
                    <a href="{{ URL::to('facilities/hotel') }}">Hotel</a>
@@ -38,7 +34,7 @@
 
             <div class="col-xs-12 col-sm-6 col-md-4 portfolio-item">
                 <a href="./images/3.png" data-lightbox="image-3" data-title="Click the right half of the image to move forward.">
-                    <img class="img-responsive facpage" src="./images/3.png" alt="">
+                    <img class="img-responsive facpage" src="./images/3.png" alt="Food and drinks cover image">
                 </a>
                 <h3>
                    <a href="{{ URL::to('facilities/food') }}">Food & Drinks</a>
@@ -47,7 +43,7 @@
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 portfolio-item">
                 <a href="./images/main5.jpg" data-lightbox="image-4" data-title="Click the right half of the image to move forward.">
-                    <img class="img-responsive facpage" src="./images/main5.jpg" alt="">
+                    <img class="img-responsive facpage" src="./images/main5.jpg" alt="Spa and sauna cover image">
                 </a>
                 <h3>
                      <a href="{{ URL::to('facilities/spa') }}">Spa & Sauna</a>
@@ -57,7 +53,7 @@
 
             <div class="col-xs-12 col-sm-6 col-md-4 portfolio-item">
                 <a href="./images/gym.jpg" data-lightbox="image-5">
-                    <img class="img-responsive facpage" src="./images/gym.jpg" alt="">
+                    <img class="img-responsive facpage" src="./images/gym.jpg" alt="Gym cover image">
                 </a>
                 <h3>
                    <a href="{{ URL::to('facilities/gym') }}">Gym</a>
@@ -67,7 +63,7 @@
 
             <div class="col-xs-12 col-sm-6 col-md-4 portfolio-item">
                 <a href="./images/penguin3.jpg" data-lightbox="image-6">
-                    <img class="img-responsive facpage" src="./images/penguin3.jpg" alt="">
+                    <img class="img-responsive facpage" src="./images/penguin3.jpg" alt="Penguin club cover image">
                 </a>
                 <h3>
                     <a href="{{ URL::to('penguinclub') }}">Penguin Club</a>
