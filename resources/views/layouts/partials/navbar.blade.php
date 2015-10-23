@@ -1,5 +1,5 @@
 <div class="container">
-    <nav id="custom-bootstrap-menu" class="navbar navbar-default navbar-static-top" role="navigation">
+    <nav id="custom-bootstrap-menu" class="navbar navbar-default navbar-static-top">
         <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
@@ -18,10 +18,10 @@
                 <li class="{{ Request::segment(1) === 'penguinclub' ? 'active' : null }}"><a href="{{ URL::to('penguinclub') }}">Penguin Club</a></li>
               </ul>
         <ul class="flagnav navbar-flag flagbar-right translation-links">
-        <li><a href="#" class="english" data-lang="English"><img src="{{asset('flag/GB.png')}}"></a></li>
-        <li><a href="#" class="spanish" data-lang="Spanish"><img src="{{asset('flag/ES.png')}}"></a></li>
-        <li><a href="#" class="french" data-lang="French"><img src="{{asset('flag/FR.png')}}"></a></li>
-        <li><a href="#" class="german" data-lang="German"><img src="{{asset('flag/DE.png')}}"></a></li>
+        <li><a href="#" class="english" data-lang="English"><img src="{{asset('flag/GB.png')}}" alt="Great Britain flag"></a></li>
+        <li><a href="#" class="spanish" data-lang="Spanish"><img src="{{asset('flag/ES.png')}}" alt="Spanish Flag"></a></li>
+        <li><a href="#" class="french" data-lang="French"><img src="{{asset('flag/FR.png')}}" alt="French Flag"></a></li>
+        <li><a href="#" class="german" data-lang="German"><img src="{{asset('flag/DE.png')}}" alt="German Flag"></a></li>
     </ul>
      </div>
     </nav>
