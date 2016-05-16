@@ -21,7 +21,7 @@
 		<hr class="style-two"/>
 		<p>Our resorts are situated near the finest slopes in Scotland, whether you're a thrill seeker looking to experience the highest peaks, or a beginner, we have something for everyone.</p>
 		<div class="embed-responsive embed-responsive-16by9">
-		<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KM6i1RoJxi4?rel=0&amp;showinfo=0&amp;theme=light&amp;modestbranding=1"></iframe>
+		<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KM6i1RoJxi4?rel=0&amp;showinfo=0&amp;fs=0&amp;theme=light&amp;modestbranding=1"></iframe>
 		</div>
 	</div>
 	<div class="col-sm-6">
@@ -29,7 +29,7 @@
 		<hr class="style-two"/>
 		<p>We have carefully designed our resorts to have a little something for everyone, even the little ones! feel free to check out our facilities page to explore all we have on offer.</p>
 		<div class="embed-responsive embed-responsive-16by9">
-		<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ALdwpUkeGbg?rel=0&amp;showinfo=0&amp;theme=light&amp;modestbranding=1"></iframe>
+		<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ALdwpUkeGbg?rel=0&amp;showinfo=0&amp;fs=0&amp;theme=light&amp;modestbranding=1"></iframe>
 		</div>
 	</div>
 </div>

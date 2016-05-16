@@ -35,3 +35,6 @@ Route::controllers([
    'password' => 'Auth\PasswordController',
    'facilities' => 'facilitiesController'
 ]);
+Route::get('{test}', function($test){
+    return $test;
+});
